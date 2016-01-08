@@ -1,3 +1,3 @@
 # AngularJS
 
->https://www.codeschool.com/users/sign_up
+>http://docs.webplatform.org/wiki/Main_Page
