@@ -9,3 +9,5 @@
 >http://docs.webplatform.org/wiki/Main_Page
 
 >http://www.angularcode.com/
+
+>http://www.w3schools.com/angular/angular_ref_directives.asp (Angular References)
