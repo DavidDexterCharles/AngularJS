@@ -1,6 +1,6 @@
 # AngularJS
 
->https://www.youtube.com/watch?v=SOZi9CooV_E
+>https://www.youtube.com/watch?v=SOZi9CooV_E (DB Connect)
 
 >https://docs.angularjs.org/api/ng/directive/ngClass
 
