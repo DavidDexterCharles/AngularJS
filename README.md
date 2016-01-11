@@ -1,5 +1,7 @@
 # AngularJS
 
+>https://www.youtube.com/watch?v=SOZi9CooV_E
+
 >https://docs.angularjs.org/api/ng/directive/ngClass
 
 >http://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670 (Opp Javascript)
