@@ -2,7 +2,7 @@
 
 >https://docs.angularjs.org/api/ng/directive/ngClass
 
->http://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670
+>http://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670 (Opp Javascript)
 
 >http://adrianmejia.com/blog/2014/09/28/angularjs-tutorial-for-beginners-with-nodejs-expressjs-and-mongodb/
 
