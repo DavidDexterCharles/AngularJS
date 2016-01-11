@@ -1,5 +1,7 @@
 # AngularJS
 
+>http://adrianmejia.com/blog/2014/09/28/angularjs-tutorial-for-beginners-with-nodejs-expressjs-and-mongodb/
+
 >http://www.w3schools.com/angular/default.asp
 
 >https://www.quora.com/Why-do-many-websites-use-AngularJS-for-a-frontend-and-PHP-as-a-backend (sums up things nicely)
