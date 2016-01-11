@@ -1,6 +1,8 @@
 # AngularJS
 
->https://www.youtube.com/watch?v=SOZi9CooV_E (DB Connect)
+>https://www.youtube.com/watch?v=SOZi9CooV_E (DB )
+
+>http://www.w3schools.com/angular/angular_sql.asp (DB)
 
 >https://docs.angularjs.org/api/ng/directive/ngClass
 
