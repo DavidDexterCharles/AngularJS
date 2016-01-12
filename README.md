@@ -4,6 +4,8 @@
 
 >http://www.w3schools.com/angular/angular_sql.asp (DB)
 
+>http://codedamn.com/
+
 >https://docs.angularjs.org/api/ng/directive/ngClass
 
 >http://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670 (Opp Javascript)
