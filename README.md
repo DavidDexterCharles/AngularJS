@@ -25,3 +25,7 @@
 >http://www.w3schools.com/angular/angular_ref_directives.asp (Angular References)
 
 >https://www.youtube.com/watch?v=vN2-iCejOFg&list=PLYxzS__5yYQmX2bItSRCqwiQZn5dIL1gt&index=19
+
+>http://jsbin.com/EvOSAqo/1/edit?html,js,output
+
+>http://stackoverflow.com/questions/19968099/get-and-update-json-using-angular-js
