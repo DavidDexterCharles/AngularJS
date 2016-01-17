@@ -7,7 +7,8 @@
 
     <ul>
         <li ng-repeat="x in myData">
-            {{ x.Name + ', ' + x.Country }}
+            {{ x.Name + ', ' + x.City }}
+<!--            {{ x.RoomNumber + ', ' + x.TypeID }}-->
         </li>
     </ul>
 
@@ -18,6 +19,7 @@
     app.controller('customersCtrl', function($scope, $http) {
         $http.get("http://localhost/AngularJS/test/test.json").then(function (response) {
             $scope.myData = response.data.records;
+//            $scope.myData = response.data;
         });
     });
 </script>

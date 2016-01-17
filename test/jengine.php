@@ -13,7 +13,7 @@ class jengine
 
     public function __construct($objectname,$objectattributes){
 
-        $this->$objectname =array($objectname=>$objectattributes);
+        $this->$objectname =array($objectname=>$this->buildkeyval($objectattributes));
         echo(json_encode($this->$objectname));
     }
     public function getCode(){
@@ -25,6 +25,16 @@ class jengine
     public function getMsg(){
         return $this->msg;
     }
+
+    public function buildkeyval($attributes=array('empty'))
+    {
+        foreach ($attributes as $value) {
+            print_r($value);
+            echo "</br>";
+        }
+        return $attributes;
+    }
+
     public function toJSON(){
         $json = array(
             'name' => $this->getName(),
