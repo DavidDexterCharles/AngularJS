@@ -1,5 +1,7 @@
 # AngularJS
 
+>http://viralpatel.net/blogs/angularjs-introduction-hello-world-tutorial/
+
 >https://www.youtube.com/watch?v=SOZi9CooV_E (DB )
 
 >http://www.w3schools.com/angular/angular_sql.asp (DB)
