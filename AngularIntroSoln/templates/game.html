@@ -1,0 +1,63 @@
+<h2>Game</h2>
+
+<div ng-show="!started">
+    <label>
+        <span><b>User Name</b></span>
+        <input ng-model="username" type="text"/>
+    </label>
+
+    <label>
+        <input ng-show="game.isPlaying" type="button" class="button" ng-click="joinGame()" value="Join"/>
+        <input ng-show="!game.isPlaying" type="button" class="button" ng-click="startGame()" value="Start"/>
+    </label>
+
+</div>
+
+
+    <div ng-show="gameState == 'play'" class="center" id="container">
+        <div class="center"
+             justgage
+             title="{{title}}"
+             value="{{game.health}}"
+             width = "100"
+             height = "100"
+             min="{{min}}"
+             max="{{max}}"
+             gauge-color="{{gaugeColor}}"
+             level-colors="{{levelColors}}"
+             custom-sectors="{{customSectors}}"
+             start-animation-time="{{startAnimationTime}}"
+             donut-start-angle="{{donutStartAngle}}"
+             counter="{{counter}}"  >
+        </div>
+
+        <div class="center" style="margin-top: -50px">
+            <img ng-src="img/{{result}}.png">
+            <h2 style="text-align: center">Time Left: {{timer}}</h2>
+            <h2 style="text-align: center">{{result}}!</h2>
+        </div>
+
+        <div id="controls">
+            <input type="button" class="button" ng-click="choose(1)" value="Fire"/>
+
+            <input type="button" class="button" ng-click="choose(2)" value="Grass"/>
+
+            <input type="button" class="button" ng-click="choose(3)" value="Water"/>
+        </div>
+
+    </div>
+
+    <input id="exit" ng-show="host" type="button" class="button" ng-click="endGame()" value="End"/>
+
+    <div ng-show="gameState == 'fled'">
+        <h2 style="text-align: center">Gary Fled! Currently Fighting: {{game.currentAlly}}</h2>
+    </div>
+
+    <div ng-show="gameState == 'win'">
+        <h2 style="text-align: center">YOU WIN!!!</h2>
+    </div>
+
+    <div ng-show="gameState == 'end'">
+        <h2 style="text-align: center">Game Ended by Host, Reload to restart</h2>
+    </div>
+
