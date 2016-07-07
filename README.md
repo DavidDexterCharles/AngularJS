@@ -1,3 +1,8 @@
+#Scripts
+
+><script data-require="angularjs@1.5.5" data-semver="1.5.5" src="https://code.angularjs.org/1.5.5/angular.js"></script>
+
+
 # AngularJS
 
 >http://viralpatel.net/blogs/angularjs-introduction-hello-world-tutorial/
